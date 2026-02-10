@@ -2,9 +2,9 @@
 name = "tsraking"
 version = "0.1.0"
 authors = [
-  { name="Akil Huang", email="ahuang.bank@gmail.com" },
+  {name="Akil Huang", email="ahuang.bank@gmail.com"},
 ]
-description = "A package built to perform time series raking."
+description = "This package implements the TSRAKING procedure developed by Statistics Canada in Python3."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -15,5 +15,4 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/akil-h/tsrakingpy.git"
