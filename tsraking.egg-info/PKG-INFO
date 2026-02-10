@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: tsraking
+Version: 0.1.0
+Summary: Python library with scripts to balance time series data.
+Author: Akil Huang
+License-File: LICENSE
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_main.py
+tsraking.egg-info/PKG-INFO
+tsraking.egg-info/SOURCES.txt
+tsraking.egg-info/dependency_links.txt
+tsraking.egg-info/requires.txt
+tsraking.egg-info/top_level.txt
+tsrakingpy/__init__.py
+tsrakingpy/main.py
