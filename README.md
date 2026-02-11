@@ -8,7 +8,7 @@ It implements a Generalized Least Squares (GLS) raking procedure that reconciles
 - Low-frequency totals (e.g., annual constraints)
 - Cross-sectional constraints (e.g., provincial totals summing to national totals)
 
-TSRaking is designed for statistical agencies, macroeconomic researchers, and practitioners who need to enforce accounting identities or hierarchical consistency in time series data.
+TSRaking is designed for statistical agencies, researchers, and practitioners who need to enforce accounting identities or hierarchical consistency in time series data.
 
 ---
 
