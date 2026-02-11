@@ -1,6 +1,6 @@
 [project]
 name = "tsraking"
-version = "0.1.1"
+dynamic = ["version"]
 authors = [
   {name="Akil Huang", email="ahuang.bank@gmail.com"},
 ]
@@ -11,8 +11,19 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license = { text = "MIT" }
 
 [project.urls]
 Homepage = "https://github.com/akil-h/tsrakingpy.git"
+
+[build-system]
+requires = ["setuptools>=61", "wheel", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "release-branch-semver"
+local_scheme = "no-local-version"
+
+
+[tool.setuptools]
+license-files = ["LICEN[CS]E*"]
